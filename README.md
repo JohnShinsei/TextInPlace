@@ -16,6 +16,12 @@
 This is the official repository for the paper:
 > [**TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification**](https://arxiv.org/abs/2503.06501)
 
+## Research Fork Roadmap
+
+This fork is used for graduation-research experiments on improving TextInPlace. Planned updates include reproducible baseline evaluation, confidence-aware fuzzy text reranking, LLM-free discriminative text selection, evaluation caching, failure-case analysis, and optional DINOv2/AnyLoc-style visual baselines.
+
+See [Planned Optimization Directions](docs/planned_updates.md) for details.
+
 <details>
   <summary>Abstract</summary>
 Visual Place Recognition (VPR) is a crucial capability for long-term autonomous robots, enabling them to identify previously visited locations using visual information. 
