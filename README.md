@@ -18,7 +18,7 @@ This is the official repository for the paper:
 
 ## Research Fork Roadmap
 
-This fork is used for graduation-research experiments on improving TextInPlace. Planned updates include reproducible baseline evaluation, confidence-aware fuzzy text reranking, LLM-free discriminative text selection, evaluation caching, failure-case analysis, and optional DINOv2/AnyLoc-style visual baselines.
+This fork is used for graduation-research experiments on improving TextInPlace. Planned updates include reproducible baseline evaluation, confidence-aware fuzzy text reranking, LLM-free discriminative text selection, evaluation caching, failure-case analysis, and paper-aware baseline review.
 
 See [Planned Optimization Directions](docs/planned_updates.md) for details.
 

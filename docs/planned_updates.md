@@ -34,12 +34,12 @@ This fork is maintained for graduation-research experiments based on the origina
 - Build failure-case summaries for OCR errors, repeated room numbers, floor conflicts, and missing text.
 - Add scripts for producing tables that can be used directly in the thesis.
 
-## 5. Strong Visual Baseline
+## 5. Paper-Aware Baseline Review
 
-- Add a DINOv2/AnyLoc-style visual descriptor baseline if time allows.
-- Compare original TextInPlace descriptors with stronger foundation-model descriptors.
-- Test whether text reranking remains useful when the visual baseline is stronger.
-- Keep this as an additional validation experiment rather than the first implementation target.
+- Treat visual-backbone replacement carefully because the original paper already compares many visual VPR baselines, including BoQ, DINOv2-BoQ, SALAD, CricaVPR, TransVPR, R2Former, and SelaVPR.
+- Avoid making a simple descriptor swap the main contribution.
+- Use the reported visual baselines as context for why the improvement should focus on text filtering, text verification, and reranking.
+- If additional visual descriptors are tested later, keep them as sanity checks rather than the core research direction.
 
 ## 6. Expected Research Outcome
 
